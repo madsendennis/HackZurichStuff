@@ -12,3 +12,5 @@ Hygge Forsikring - having a cozy playful atmosphere around your insurance:
   - App to connect with AXA insurance DB for cross data lookup - categorize items in the photo with insurance components
 
 Files in the src folder are the source files on an Android application.
+The server.py file is a python script that uses the Cloud Vision technology for image analysis
+The JSONClient.py file is a python script that is meant to use the results from server.py and provide meaningful information using data from the AXA repositories.
